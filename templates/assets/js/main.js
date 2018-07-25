@@ -7,17 +7,20 @@ $(document).ready(function() {
 	});
 
 	// CKEDITOR.replace('ckEditor');
+var size = 51,
+newContent = $('.card__title');
+$.each(newContent, function(index, value){
+if ($(this).text().length > size) {
+		$(this).text($(this).text().slice(0, size) + '...');
+}
 
-var size = 30,
-    newsContent= $('.card__title');
-    newsContent.forEach(function(){
-			 
-	  for (i = 0; i < a.length; i++) {
-    newsText = newsContent.text();
-			if(newsText.length > size){
-				newsContent.text(newsText.slice(0, size) + ' ...');
-				}
-}	
+});
+var sizePort = 27	,
+newContentPort =  $('.card-portfolio .card__title');
+$.each(newContentPort, function(index, value){
+if ($(this).text().length > sizePort) {
+		$(this).text($(this).text().slice(0, sizePort) + '...');
+}
 
 });
 
