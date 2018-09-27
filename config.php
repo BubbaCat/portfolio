@@ -7,8 +7,8 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 // SITE SETTINGS FOR EMAILS
-define('SITE_NAME', 'Сайт портфолио - WebDev02');
-define('SITE_EMAIL', 'info@webdev02.com');
-define('ADMIN_EMAIL', 'info@rightblog.ru');
+define('SITE_NAME', 'Сайт портфолио - Сапов Евгений');
+define('SITE_EMAIL', 'evgeniy.sapov@mail.ru');
+define('ADMIN_EMAIL', 'evgeniy.sapov@gmail.com');
 
 ?>
